@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'especial';
+    src: url(fonts/Hello\ Snow.ttf) format('truetype');
+
+}
+
+@font-face {
+    font-family: 'ola';
+    src: url(fonts/Magnilda-WyOJn.ttf) format('truetype');
+}
+
+body{
+    background-image:linear-gradient(to right, #492FF5, #3925C2,#413975);
+    
+}
+
+main{
+    background-color: white;
+    width: 950px;
+
+    margin: auto;
+     
+}
+
+h1{
+    font-family: 'especial', Arial, Helvetica, sans-serif;
+    ;
+}
+
+h2{
+    font-family: 'ola';
+}
+
+p.p1 {
+    text-align: center;
+}

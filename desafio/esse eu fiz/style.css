@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'font';
+    src: url(fonts/idroid.otf) format('opentype');
+
+}
+
+body{
+    background-color: rgb(123, 224, 167);
+}
+
+header{
+    background-image: linear-gradient(to bottom,#3BD57F,#268851,  #1A5C38);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding: 33px 0px 0px 0px;
+    margin: -21px -8px 0px -10px;
+    
+}
+
+h1.h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+
+p.p1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    padding: 5px 0px 9px 0px;
+}
+
+nav{
+    padding-bottom: 10px;
+}
+
+nav >a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+
+    
+}
+
+nav >a:hover{
+    background-color: #36C374;
+    color: #A5BEB0;
+    text-decoration: underline;
+
+    border-radius: 2px 2px 2px 2px;
+    padding: 5px 0px 10px 0px;
+}
+
+main{
+    background-color: white;
+    max-width: 730px;
+    margin: 0px auto 10px ;
+    padding: 1px 10px 30px 10px;
+    
+}
+
+span.spa{
+    display: block;
+}
+
+picture >img{
+    display: block;
+    max-width: 700px;
+    margin: auto;
+}
+
+h1.h2{
+    font-family: 'font', Arial, Helvetica, sans-serif;
+    color: #27563F ;
+}
+
+h2.h22{
+    font-family: 'font', Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #D0EBDD 55%, #F8FDFB 79%);
+    color: #27563F;
+}
+
+p.p2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+div.dv1{
+    background-color: #1A5C38;
+    text-align: center;
+
+    padding: 25px 0px 25px 0px;
+    margin: 10px -10px 10px -10px;
+}
+
+div >iframe{
+    width: 430px;
+    
+}
+
+h3{
+    background-color: #2FA866;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    border-radius: 5px 5px 0px 0px;
+    padding: 7px 0px 0px 3px;
+    margin: 0px -9px 0px -9px;
+
+}
+
+p.p3{
+    text-decoration: underline;
+}
+
+div.dv2{
+    background-color: #C5EBD6;
+    border-radius: 5px 5px 10px 5px ;
+    padding: 0px 10px 2px 10px;
+}
+
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #1A5C38;
+    text-align: center;
+
+    padding: 5px 0px 5px 0px;
+    margin: 0px -8px -8px -8px;
+}
+
+span.spa2{
+    color: #1A5C38;
+    font-weight: bold;
+}
+
+
